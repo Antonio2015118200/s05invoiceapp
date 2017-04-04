@@ -22,6 +22,6 @@ public class S05InvoiceApp {
        System.out.print("Ingrese subtotal:      ");
        double subtotal= sc.nextDouble();
        double impuesto = subtotal*0.18;
-       double total= subtotal + impuesto;      
+       double total= subtotal + impuesto-descuento;      
     }
 }
